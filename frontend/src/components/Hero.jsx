@@ -20,12 +20,13 @@ function Hero() {
 
                     <div className="md:w-1/2 mx-5">
                         <h1 className="text-3xl md:text-4xl font-bold my-6">Darshan: Pavitrata ka Safar</h1>
-                        <p className="text-gray-700 mb-6">Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit eum, ducimus nulla molestias magni, eos culpa ea illum nihil obcaecati atque quaerat iure accusantium deserunt soluta corporis quidem asperiores blanditiis?</p>
+                        <p className="text-gray-700 mb-6">Darshan offers a seamless platform for spiritual journeys, empowering travelers with personalized itineraries, cultural insights, and real-time updates. Explore sacred sites with ease and connect to India’s rich heritage, all through innovative technology designed for a meaningful experience.</p>
+
                         <div className="border-b-2 border-gray-300 my-4 mx-1"></div>
 
                         <div className="mt-4">
                             <p className="mb-4">Have any questions? Contact us!</p>
-                            <p className="text-xl font-semibold">+91 (123) 9999998887</p>
+                            <p className="text-xl font-semibold"> IIHMF, MNNIT Allahabad</p>
                         </div>
                     </div>
                 </section>
