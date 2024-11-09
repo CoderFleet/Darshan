@@ -6,9 +6,9 @@ import AboutBox from '../components/AboutBox'
 function Aboutt() {
   return (
     <div>
-      <Navbar/>
+      {/* <Navbar/> */}
       <AboutBox/>
-      <Footer/>
+      {/* <Footer/> */}
     </div>
   )
 }

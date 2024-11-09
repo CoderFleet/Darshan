@@ -6,9 +6,9 @@ import CarBookingForm from '../components/CarBookingForm'
 function Cab() {
   return (
     <div>
-      <Navbar/>
+      {/* <Navbar/> */}
       <CarBookingForm/>
-      <Footer/>
+      {/* <Footer/> */}
     </div>
   )
 }

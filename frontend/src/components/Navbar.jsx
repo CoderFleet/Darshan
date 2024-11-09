@@ -1,5 +1,5 @@
 import React from 'react'
-
+import { NavLink } from 'react-router-dom';
 
 function Navbar() {
     return (
@@ -41,20 +41,21 @@ function Navbar() {
                 </div>
                 <div className="navbar-center hidden lg:flex">
                     <ul className="menu menu-horizontal space-x-6">
+                        {/* a tag functionality is removed and redirect logic now goes to NavLink for ReloadLess Page Route */}
                         <li>
-                            <a href="/" className="text-gray-800 transform hover:scale-110 transition duration-200">Home</a>
+                            <a className="text-gray-800 transform hover:scale-110 transition duration-200"><NavLink to='/'>Home</NavLink></a>
                         </li>
                         <li>
-                            <a href="/about" className="text-gray-800 transform hover:scale-110 transition duration-200">About</a>
+                            <a className="text-gray-800 transform hover:scale-110 transition duration-200"><NavLink to='/about'>About</NavLink></a>
                         </li>
                         <li>
-                            <a href="/services" className="text-gray-800 transform hover:scale-110 transition duration-200">Services</a>
+                            <a className="text-gray-800 transform hover:scale-110 transition duration-200"><NavLink to='/services'>Services</NavLink></a>
                         </li>
                         {/* <li>
                             <a href="/contact" className="text-gray-800 transform hover:scale-110 transition duration-200">Contact Us</a>
                         </li> */}
                         <li>
-                            <a href="/cab" className="text-gray-800 transform hover:scale-110 transition duration-200">Book a Car</a>
+                            <a className="text-gray-800 transform hover:scale-110 transition duration-200"><NavLink to='/cab'>Book a Cab</NavLink></a>
                         </li>
                     </ul>
                 </div>

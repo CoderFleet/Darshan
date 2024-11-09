@@ -6,9 +6,9 @@ import Feature from '../components/features'
 function Services() {
   return (
     <div>
-      <Navbar/>
+      {/* <Navbar/> */}
       <Feature/>
-      <Footer/>
+      {/* <Footer/> */}
     </div>
   )
 }
