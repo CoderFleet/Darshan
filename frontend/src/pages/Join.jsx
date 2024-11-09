@@ -6,9 +6,9 @@ import LoginRegisterForm from '../components/LoginRegisterForm'
 function Join() {
   return (
     <div>
-      <Navbar/>
+      {/* <Navbar/> */}
       <LoginRegisterForm/>
-      <Footer/>
+      {/* <Footer/> */}
     </div>
   )
 }
