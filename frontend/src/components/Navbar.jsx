@@ -1,5 +1,6 @@
 import React from 'react'
 
+
 function Navbar() {
     return (
         <div className="bg-gray-100" style={{ color: 'black' }}>
@@ -26,8 +27,8 @@ function Navbar() {
                             <li><a href="#">Home</a></li>
                             <li><a href="#">About</a></li>
                             <li><a href="#">Services</a></li>
-                            <li><a href="#">Contact Us</a></li>
-                            <li><a href="#">Blog</a></li>
+                            {/* <li><a href="#">Contact Us</a></li> */}
+                            <li><a href="#">Book a Car</a></li>
                         </ul>
                     </div>
                     <a className="ml-4">
@@ -41,24 +42,27 @@ function Navbar() {
                 <div className="navbar-center hidden lg:flex">
                     <ul className="menu menu-horizontal space-x-6">
                         <li>
-                            <a href="#" className="text-gray-800 transform hover:scale-110 transition duration-200">Home</a>
+                            <a href="/" className="text-gray-800 transform hover:scale-110 transition duration-200">Home</a>
                         </li>
                         <li>
-                            <a href="#" className="text-gray-800 transform hover:scale-110 transition duration-200">About</a>
+                            <a href="/about" className="text-gray-800 transform hover:scale-110 transition duration-200">About</a>
                         </li>
                         <li>
-                            <a href="#" className="text-gray-800 transform hover:scale-110 transition duration-200">Services</a>
+                            <a href="/services" className="text-gray-800 transform hover:scale-110 transition duration-200">Services</a>
                         </li>
+                        {/* <li>
+                            <a href="/contact" className="text-gray-800 transform hover:scale-110 transition duration-200">Contact Us</a>
+                        </li> */}
                         <li>
-                            <a href="#" className="text-gray-800 transform hover:scale-110 transition duration-200">Contact Us</a>
-                        </li>
-                        <li>
-                            <a href="#" className="text-gray-800 transform hover:scale-110 transition duration-200">Blog</a>
+                            <a href="/cab" className="text-gray-800 transform hover:scale-110 transition duration-200">Book a Car</a>
                         </li>
                     </ul>
                 </div>
                 <div className="navbar-end">
-                    <button className="bg-black text-white px-6 py-2 rounded-full hidden md:inline-block mr-4 hover:bg-gray-700 hover:shadow-lg transform hover:scale-105 transition duration-200">Join</button>
+                <a href="/join" className="bg-black text-white px-6 py-2 rounded-full hidden md:inline-block mr-4 hover:bg-gray-700 hover:shadow-lg transform hover:scale-105 transition duration-200">
+    Join
+</a>
+
                 </div>
             </div>
         </div>
